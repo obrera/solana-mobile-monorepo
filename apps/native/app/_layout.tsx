@@ -19,7 +19,7 @@ export const unstable_settings = {
 
 const cluster = createSolanaDevnet()
 const identity = {
-  name: 'Solana Mobile Stack',
+  name: 'Solana Mobile Monorepo',
   uri: 'https://solana.com',
   icon: 'favicon.png',
 }

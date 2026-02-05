@@ -1,5 +1,5 @@
 {
-  "name": "@solana-mobile-stack/api",
+  "name": "@solana-mobile-monorepo/api",
   "type": "module",
   "exports": {
     ".": {
@@ -17,17 +17,17 @@
     "@orpc/openapi": "catalog:",
     "@orpc/server": "catalog:",
     "@orpc/zod": "catalog:",
-    "@solana-mobile-stack/auth": "workspace:*",
-    "@solana-mobile-stack/db": "workspace:*",
-    "@solana-mobile-stack/env": "workspace:*",
-    "@solana-mobile-stack/solana-client": "workspace:*",
+    "@solana-mobile-monorepo/auth": "workspace:*",
+    "@solana-mobile-monorepo/db": "workspace:*",
+    "@solana-mobile-monorepo/env": "workspace:*",
+    "@solana-mobile-monorepo/solana-client": "workspace:*",
     "@solana/kit": "catalog:",
     "dotenv": "catalog:",
     "drizzle-orm": "catalog:",
     "zod": "catalog:"
   },
   "devDependencies": {
-    "@solana-mobile-stack/config": "workspace:*",
+    "@solana-mobile-monorepo/config": "workspace:*",
     "hono": "catalog:",
     "typescript": "catalog:"
   }

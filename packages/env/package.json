@@ -1,5 +1,5 @@
 {
-  "name": "@solana-mobile-stack/env",
+  "name": "@solana-mobile-monorepo/env",
   "version": "0.0.0",
   "private": true,
   "type": "module",
@@ -17,7 +17,7 @@
     "zod": "catalog:"
   },
   "devDependencies": {
-    "@solana-mobile-stack/config": "workspace:*",
+    "@solana-mobile-monorepo/config": "workspace:*",
     "@types/bun": "catalog:",
     "typescript": "catalog:"
   }

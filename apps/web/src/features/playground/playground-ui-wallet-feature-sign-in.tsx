@@ -26,7 +26,9 @@ export function PlaygroundUiWalletFeatureSignIn({
   onSuccess(account: UiWalletAccount | undefined): void
   wallet: UiWallet
 }) {
-  const [statement, setStatement] = useState('Sign in to solana-mobile-stack')
+  const [statement, setStatement] = useState(
+    'Sign in to Solana Mobile Monorepo',
+  )
   const { mutateAsync, isPending } = useHandleSiwsAuthMutation({
     account,
     wallet,

@@ -2,7 +2,7 @@ import { getBase58Decoder, getBase64Encoder } from '@solana/kit'
 import type {
   SolanaAuthNonceResponse,
   SolanaAuthVerifyResponse,
-} from '@solana-mobile-stack/better-auth-solana/client'
+} from '@solana-mobile-monorepo/better-auth-solana/client'
 import { useMobileWallet } from '@wallet-ui/react-native-kit'
 import { useState } from 'react'
 import { Alert } from 'react-native'
@@ -33,7 +33,7 @@ export function useSolanaSignIn() {
         address,
         domain: nonce.domain,
         nonce: nonce.nonce,
-        statement: 'Sign in to solana-mobile-stack',
+        statement: 'Sign in to Solana Mobile Monorepo',
       })
 
       // Convert MWA result: both are Base64 strings

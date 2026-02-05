@@ -5,14 +5,14 @@
   },
   "devDependencies": {
     "@types/bun": "catalog:",
-    "@solana-mobile-stack/config": "workspace:*",
+    "@solana-mobile-monorepo/config": "workspace:*",
     "typescript": "catalog:"
   },
   "exports": {
     ".": "./src/index.ts",
     "./*": "./src/*.ts"
   },
-  "name": "@solana-mobile-stack/solana-client",
+  "name": "@solana-mobile-monorepo/solana-client",
   "private": false,
   "scripts": {
     "check-types": "tsc --noEmit"
