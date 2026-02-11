@@ -4,10 +4,10 @@
   "type": "module",
   "scripts": {
     "build": "vite build",
-    "serve": "vite preview",
+    "check-types": "tsc -p tsconfig.json --noEmit",
     "dev": "vite dev",
-    "start": "bun server.ts",
-    "check-types": "tsc -p tsconfig.json --noEmit"
+    "serve": "vite preview",
+    "start": "bun server.ts"
   },
   "dependencies": {
     "@ai-sdk/react": "catalog:",

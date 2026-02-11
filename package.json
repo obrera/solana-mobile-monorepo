@@ -56,6 +56,7 @@
     "docker:run:web": "docker run --rm --name solana-mobile-monorepo-web --init --stop-signal=SIGINT -it -p 3001:3001 ghcr.io/beeman/solana-mobile-monorepo-web",
     "lint": "biome check .",
     "lint:fix": "biome check --write .",
+    "postinstall": "bun run scripts/copy-env.ts",
     "rename": "bun scripts/rename.ts",
     "ruler:apply": "bunx @intellectronica/ruler@latest apply --local-only",
     "start:web": "turbo -F web start",
